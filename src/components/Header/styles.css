@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100vw;
+  height: 64px;
+
+  padding: 16px;
+
+  background-color: #EBF1EE;
+
+  border-radius: 50px;
+}
+
+header div{
+  display: flex;
+  gap: 16px;
+}
+
+header div a{
+  text-decoration: none;
+  color: black;
+}
+
+header div a:hover{
+  text-decoration: underline;
+}
+
+.careplus-logo{
+  width: 50px;
+}
