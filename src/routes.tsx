@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Cuidadores from "./pages/Cuidadores";
+import Cuidadores from "./pages/cuidadores";
 import Home from "./pages/Home";
 import './index.css'
 
