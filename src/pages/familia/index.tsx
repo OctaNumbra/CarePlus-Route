@@ -7,10 +7,10 @@ function Familia() {
     <div>
       <Header />
       {/* banner */}
-      <div className="pl-14 text-5xl pb-5">
+      <div className="pl-14 text-5xl pb-10">
         <p>Como é ser um cuidador autônomo na plataforma CarePlus?</p>
       </div>
-      <div className="flex justify-center bg-gray-50">
+      <div className="flex justify-center bg-gray-50 pb-10">
         <img
           src="./6.png"
           alt="Oferecemos ajuda"
@@ -18,7 +18,7 @@ function Familia() {
         />
       </div>
       {/* sobre */}
-      <div className="grid grid-cols-2 border-black p-4 m-10 border-2 rounded-2xl shadow-md">
+      <div className="grid grid-cols-2 border-black p-4 mx-10 mb-10 border-2 rounded-2xl shadow-md">
         <div className="">
           <h3 className="text-3xl py-2">O que é trabalho autônomo?</h3>
           <p className="text-lg">
@@ -58,7 +58,7 @@ function Familia() {
           </div>
         </div>
       </div>
-      <div className="border-black p-4 m-10 border-2 rounded-2xl shadow-md">
+      <div className="border-black p-4 mx-10 mb-10 border-2 rounded-2xl shadow-md">
         <div className="flex px-5">
           <h3 className="text-3xl pb-3">
             As pessoas tornam-se cuidadores por uma ampla gama de razões
@@ -68,7 +68,7 @@ function Familia() {
           <div>
             <p className="text-xl">
               Não importa se começou apoiando alguém da própria família ou se
-              sempre teve paixão em ajudar. 
+              sempre teve paixão em ajudar.
             </p>
           </div>
           <div className="border-black p-4 border-2 rounded-2xl shadow-md text-center">

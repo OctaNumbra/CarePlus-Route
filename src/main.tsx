@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import MainRoutes from "./routes";
 import "./index.css";
 
+
 import { register } from 'swiper/element/bundle';
 register();
 import 'swiper/css';

@@ -10,7 +10,7 @@ function Slider() {
   ];
   return (
     <div>
-      <div className="containers">
+      <div className="container">
         <Swiper
           className="rounded-xl"
           slidesPerView={1}

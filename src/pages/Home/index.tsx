@@ -17,11 +17,11 @@ function Home() {
       {/* Header component */}
       <Header />
       {/* Slider component */}
-      <div className="flex justify-center">
+      <div className="flex justify-center pb-10">
         <Slider />
       </div>
       {/* Beneficios */}
-      <div className="flex justify-center bg-gray-50">
+      <div className="flex justify-center bg-gray-50 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
           <div className="bg-green-50 p-4 rounded-lg shadow-md flex flex-col items-center text-center">
             <Clock8 className="size-5 mb-2" />
@@ -59,35 +59,37 @@ function Home() {
         </div>
       </div>
       {/* Info cuidadores */}
-      <div>
-        <h2 className="px-4 text-2xl font-grotesque">
+      <div className="pb-10">
+        <h2 className="px-4 text-2xl font-semibold">
           Serviços e cuidados para idosos
         </h2>
-        <div className="grid grid-cols-4 gap-4 mx-4">
-          <p className="font-cairo">
-            Todos os cuidadores aprovados por idosos:
-          </p>
-          <p className="flex justify-center">
-            <ClipboardCheck className="text-teal-400" /> Forneça 2+ refêrencias
-            verificadas
-          </p>
-          <p className="flex justify-center">
+        <div className="grid grid-cols-4 mx-2 font-cairo">
+          <div>
+            <p className="font-cairo">
+              Todos os cuidadores aprovados por idosos:
+            </p>
+          </div>
+          <div className="flex items-center justify-center">
+            <ClipboardCheck className="text-teal-400" />
+            <p>Forneça 2+ refêrencias verificadas</p>
+          </div>
+          <div className="flex items-center ">
             <CalendarCheck className="text-teal-400" />
-            Ter no mínimo 6 meses de experiência
-          </p>
-          <p className="flex justify-center">
+            <p>Ter no mínimo 6 meses de experiência</p>
+          </div>
+          <div className="flex items-center justify-center">
             <CircleCheck className="text-teal-400" />
-            Tenha um DBS/PVG limpo e aprimorado
-          </p>
+            <p>Tenha um DBS/PVG limpo e aprimorado</p>
+          </div>
         </div>
       </div>
 
       {/* Serviços */}
-      <div className="flex justify-center">
+      <div className="flex justify-center pb-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
           <div className="bg-green-50 rounded-2xl shadow-md flex flex-col">
             <img src="./servico1.png" alt="serviço 1" className="rounded-2xl" />
-            <h2 className="pl-4 pt-4 text-2xl font-inter">
+            <h2 className="pl-4 pt-4 text-2xl font-semibold">
               Cuidados ao Domicílio
             </h2>
             <p className="text-xs pl-4 pb-4">Suporte 24 horas em sua casa</p>
@@ -99,7 +101,7 @@ function Home() {
           </div>
           <div className="bg-green-50 rounded-2xl shadow-md flex flex-col">
             <img src="./servico2.png" alt="serviço 1" className="rounded-2xl" />
-            <h2 className="pl-4 pt-4 text-2xl font-inter">
+            <h2 className="pl-4 pt-4 text-2xl font-semibold">
               Cuidados de Curto Prazo
             </h2>
             <p className="text-xs pl-4 pb-4">
@@ -114,7 +116,7 @@ function Home() {
           </div>
           <div className="bg-green-50 rounded-2xl shadow-md flex flex-col">
             <img src="./servico3.png" alt="serviço 1" className="rounded-2xl" />
-            <h2 className="pl-4 pt-4 text-2xl font-inter">
+            <h2 className="pl-4 pt-4 text-2xl font-semibold">
               Visitas de cuidados
             </h2>
             <p className="text-xs pl-4">
@@ -131,7 +133,7 @@ function Home() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
