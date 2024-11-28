@@ -10,7 +10,8 @@ export default {
       colors: {
         'header': '#EBF1EE',
         'body': '#FBFBFB',
-        'footer': '#EBF1EE'
+        'footer': '#EBF1EE',
+        'azul':'#2288AC'
       },
     },
   },

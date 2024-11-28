@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import "./style.css"
 
 function Slider() {
   const data = [
@@ -9,7 +10,7 @@ function Slider() {
   ];
   return (
     <div>
-      <div className="container">
+      <div className="containers">
         <Swiper
           className="rounded-xl"
           slidesPerView={1}
